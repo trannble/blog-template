@@ -1,0 +1,126 @@
+/* fonts:
+font-family: 'Raleway', sans-serif;
+font-family: 'Dancing Script', cursive;
+Dancing Script is the header.
+Raleway is the blog paragraph. */
+
+/* color:
+background: #c7f0f0 (pastel blue)
+nav bar: #2da8a8 (dark blue)
+font: #f2fcfc (white)
+grey font: #747471  */
+
+/* navigation bar code */
+.container {
+  width:50%
+  margin: 0, auto;
+}
+
+header {
+  background: #2da8a8
+}
+
+nav {
+  text-align: center;
+}
+
+header::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 20px;
+}
+
+nav a{
+  color:#f2fcfc;
+  text-decoration:none;
+  text-transform: lowercase;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive
+}
+
+#name {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  color:#747471;
+  font-weight: bold;
+}
+
+/* background color of website */
+body{
+  background-color:#c7f0f0;
+}
+
+/* style for home page about me*/
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 10em 0
+}
+
+.masthead-intro {
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
+  font-family: 'Dancing Script', cursive;
+  font-size: 65px;
+}
+
+#context {
+  margin-bottom: 3em;
+}
+
+header1 {
+  background-color: inherit;
+}
+
+.about-section {
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color:#747471;
+  margin: 0.5em;
+}
+
+/* style for each article */
+#articletitle {
+  font-family:'Dancing Script', cursive;
+  font-size: 35px;
+  color:#2da8a8;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 0.05em;
+}
+
+#date {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color: #747471;
+  font-size: 15px;
+  margin: 0.01em;
+}
+
+#article {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 18px;
+  margin: 0.05em;
+}
+
+#sfpride{
+  float: right;
+}
